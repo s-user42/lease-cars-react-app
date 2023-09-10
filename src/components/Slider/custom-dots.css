@@ -1,0 +1,40 @@
+/* custom-dots.css */
+/* Стили для точек (dots) */
+.slick-dots {
+    position: absolute;
+    bottom: 20px; /* Расположение точек снизу */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .slick-dots li {
+    width: 120px;
+    margin: 0 10px; 
+  }
+  
+  .slick-dots li button {
+    display: block;
+    padding: 0;
+    width: 100%; /* Ширина точки */
+    height: 3px; /* Высота точки */
+    background-color: #000000; 
+    border: none;
+    border-radius: 0; /* Создаем круглые точки */
+    cursor: pointer;
+    opacity: 0.7; /* Начальная прозрачность точек */
+    transition: opacity 0.3s ease; /* Анимация изменения прозрачности */
+  }
+  
+  .slick-dots li.slick-active button {
+    opacity: 1; /* Прозрачность активной точки */
+    padding: 3px;
+    background-color: white;
+  }
+  .slick-dots button::before {
+    display: none;
+  }
+  
