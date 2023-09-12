@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { images } from '../../helper/sliderImgaes';
+import { images } from '../../helper/data';
 import './slider.css';
 import './custom-dots.css';
 
@@ -22,9 +22,9 @@ const SliderComponent = () => {
   return (
     <div className="slider">
       <Slider {...settings}>
-        {images.map((img) => {
+        {images.map((img, id) => {
           return (
-            <img className="swiper-slide" src={img} key={img} alt={`Slide`} />
+            <img className="swiper-slide" src={img} key={id} alt={`Slide`} />
           );
         })}
       </Slider>

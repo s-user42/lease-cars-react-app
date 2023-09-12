@@ -1,0 +1,34 @@
+.blog {
+    padding-bottom: 150px;
+  }
+  
+  .blog__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 40px;
+    margin-bottom: 70px;
+  }
+  
+  .blog__item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .blog__item-img {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  
+  .blog__item-title {
+    font-size: 24px;
+    font-weight: 700;
+    flex-basis: 446px;
+  }
+  
+  .blog__item-link {
+    background-color: #0066FF;
+    color: #fff;
+    padding: 4px 20px;
+  }

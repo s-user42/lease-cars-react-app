@@ -1,0 +1,68 @@
+.showmore-button {
+    text-transform: uppercase;
+    background-color: #151515;
+    color: #fff;
+    padding: 13px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 225px;
+  }
+
+  .showmore-button:hover {
+    cursor: pointer;
+  }
+
+  .showmore-button:active {
+    transform: translateY(1px);
+  }
+
+  .disabled-button {
+    opacity: 0.6;
+  }
+
+  .disabled-button:active {
+    transform: none;
+  }
+  
+  .choose{
+    padding: 100px 0 150px;
+  }
+  
+  .tabs__btn{
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-bottom: 100px;
+  }
+  
+  .tabs__btn-item{
+    font-size: 24px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .tabs__btn-item--active{
+    color: #0066FF;
+  }
+  
+  .tabs__content{
+    margin-bottom: 70px;
+  }
+  
+  .tabs__content-item{
+    display: none;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px 40px;
+    opacity: 0;
+    transition: opacity .5s ease;
+  }
+  
+  .tabs__content-item--active{
+    display: grid;
+    opacity: 1;
+  }

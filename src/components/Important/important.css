@@ -1,0 +1,24 @@
+.important {
+    padding-bottom: 150px;
+  }
+  
+  .important-title {
+    margin-bottom: 20px;
+  }
+  
+  .important__text {
+    margin: 0 auto 50px;
+    max-width: 580px;
+  }
+  
+  .important__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 40px;
+  }
+  
+  .important__item-img {
+    margin-bottom: 20px;
+  }
+
+  

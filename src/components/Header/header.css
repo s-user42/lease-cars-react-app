@@ -47,7 +47,7 @@
     text-transform: uppercase;
   }
   
-  .menu__list-link--active{
+  .menu__list-link.active {
     color: #06f;
   }
 

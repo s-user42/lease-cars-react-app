@@ -1,9 +1,11 @@
 import './header.css';
 
+import { useState } from 'react';
+
 import logo from '../../images/logo.svg';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
 
-const Header = ({isHomepage}) => {
+const Header = () => {
 
     const location = useLocation();
     const headerClasses = location.pathname === '/' ? "header header-main" : "header";
@@ -21,11 +23,28 @@ const Header = ({isHomepage}) => {
                             <span></span>
                         </button>
                         <ul className="menu__list">
-                            <li className="menu__list-item"><NavLink to='/new-cars' className="menu__list-link">NEW CARS</NavLink></li>
-                            <li className="menu__list-item"><NavLink href="#" className="menu__list-link">PRE-OWNED CARS</NavLink></li>
-                            <li className="menu__list-item"><NavLink href="#" className="menu__list-link">FINANCE</NavLink></li>
-                            <li className="menu__list-item"><NavLink href="#" className="menu__list-link">LEASE VS BUY</NavLink></li>
-                            <li className="menu__list-item"><NavLink href="contacts.html" className="menu__list-link">CONTACT US</NavLink></li>
+                            <li 
+                            className="menu__list-item">
+                                <NavLink to='/new-cars' className='menu__list-link'>NEW CARS
+                                </NavLink>
+                            </li>
+                            <li 
+                            className="menu__list-item">
+                                <NavLink to='/pre-owned-cars' href="#" className="menu__list-link">PRE-OWNED CARS
+                                </NavLink>
+                            </li>
+                            <li 
+                            className="menu__list-item">
+                                <NavLink to='/finance' href="#" className="menu__list-link">FINANCE</NavLink>
+                            </li>
+                            <li 
+                            className="menu__list-item">
+                                <NavLink to='/lease-vs-buy' href="#" className="menu__list-link">LEASE VS BUY</NavLink>
+                            </li>
+                            <li 
+                            className="menu__list-item">
+                                <NavLink to='/contacts' href="contacts.html" className="menu__list-link">CONTACT US</NavLink>
+                            </li>
                         </ul>
                         </nav>
                     </div>

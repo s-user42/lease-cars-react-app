@@ -3,7 +3,8 @@ import './homepage.css';
 import Slider from '../../components/Slider/Slider';
 import WhyLease from '../../components/WhyLease/WhyLease';
 import HowDoes from '../../components/HowDoes/HowDoes';
-import Footer from '../../components/Footer/Footer';
+import VideoPlayer from '../../components/VideoPlayer/VideoPlayer';
+import Important from '../../components/Important/Important';
 
 const Homepage = () => {
     return (  
@@ -18,7 +19,9 @@ const Homepage = () => {
             <Slider />
             <WhyLease />
             <HowDoes />
-            <Footer />
+            <VideoPlayer />
+
+            <Important />
         </div>
     );
 }
