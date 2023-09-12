@@ -28,18 +28,10 @@ const Header = () => {
                                 <NavLink to='/new-cars' className='menu__list-link'>NEW CARS
                                 </NavLink>
                             </li>
+                            
                             <li 
                             className="menu__list-item">
-                                <NavLink to='/pre-owned-cars' href="#" className="menu__list-link">PRE-OWNED CARS
-                                </NavLink>
-                            </li>
-                            <li 
-                            className="menu__list-item">
-                                <NavLink to='/finance' href="#" className="menu__list-link">FINANCE</NavLink>
-                            </li>
-                            <li 
-                            className="menu__list-item">
-                                <NavLink to='/lease-vs-buy' href="#" className="menu__list-link">LEASE VS BUY</NavLink>
+                                <NavLink to='/comparation' href="#" className="menu__list-link">LEASE VS BUY</NavLink>
                             </li>
                             <li 
                             className="menu__list-item">

@@ -1,0 +1,50 @@
+.popup-wrapper {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100vh;
+    top:0;
+    left:0;
+    z-index: 10;
+}
+
+.car__info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+
+.popup-card {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 600px;
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.popup-card img {
+    width: 300px;
+    height: 192px;
+    outline: 1px solid rgb(199, 199, 199);
+    outline-offset: -2px;
+
+    border: 1px solid #000000;
+
+}
+
+.popup-card__title {
+    margin-bottom: 6px;
+}
+
+.popup-card__price {
+    opacity: 0.8;
+    font-size: 20px;
+}

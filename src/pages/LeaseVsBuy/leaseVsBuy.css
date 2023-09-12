@@ -1,0 +1,54 @@
+.comparation {
+    padding: 100px 0 150px;
+    font-size: 24px;
+}
+
+.comparation img {
+    width: 50px;
+    height: 50px;
+}
+
+.comparation li span{
+    font-weight: bold;
+}
+
+.comparation li {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.desc {
+    list-style-type: none;
+}
+
+/* .desc li::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('../../images/plus-icon-2048x2048-z6v59bd6.png');
+    margin-right: 10px;
+    background-size: cover;
+} */
+
+.comparation-meths--buy, .comparation-meths--lease {
+    width: 100%;
+}
+
+.comparation-meths {
+    margin-top: 100px;
+    display: flex;
+    column-gap: 100px;
+}
+
+.comparation li {
+    margin-top: 50px;
+}
+
+.meths {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}

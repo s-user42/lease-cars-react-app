@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 
 import { carsList } from '../../helper/cars';
 import CarCard from '../../components/CarCard/CarCard';
-import CarsBlog from '../../components/CarsBlog/CarsBlog';
 
 const ChooseCars = () => {
 
@@ -99,8 +98,6 @@ const ChooseCars = () => {
 
                 </div>
             </div>
-
-            <CarsBlog />
         
         </div>
     );

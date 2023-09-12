@@ -21,6 +21,10 @@
     opacity: 0.6;
   }
 
+  .disabled-button:hover {
+    cursor: default;
+  }
+
   .disabled-button:active {
     transform: none;
   }

@@ -1,16 +1,20 @@
 import './carsBlog.css';
 
 import { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 
 import { posts } from '../../helper/blogPosts';
 
 const CarsBlog = () => {
 
+    
     const [offset, setOffset] = useState(0);
     const [visiblePosts, setVisiblePosts] = useState([]);
-
+    
+    const location = useLocation();
+    const isHomePage = location.pathname === '/' ? true : false;
+    
     useEffect(() => {
-        
         const temp = getVisiblePosts(0);
         setVisiblePosts(temp);
     }, []);
@@ -36,7 +40,7 @@ const CarsBlog = () => {
     };
 
     return (
-        <section className="blog">
+        <section className={isHomePage ? 'blog hide-component' : 'blog'}>
             <div className="container">
                 <div className="blog__items">
                     {visiblePosts.map((item, id) => {
