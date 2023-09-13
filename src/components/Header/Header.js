@@ -13,7 +13,7 @@ const Header = () => {
             <div className={headerClasses}>
                 <div className="container">
                     <div className="header__inner">
-                        <NavLink to='/lease-cars-react-app/' className="logo"><img src={logo} alt="logo" className="logo__img" /></NavLink>
+                        <NavLink to='lease-cars-react-app' className="logo"><img src={logo} alt="logo" className="logo__img" /></NavLink>
                         <nav className="menu">
                         <button className="menu__btn">
                             <span></span>
