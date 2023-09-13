@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lease-cars-react-app/static/css/main.d5cf0a65.css",
-    "main.js": "/lease-cars-react-app/static/js/main.d8dbfb5b.js",
+    "main.js": "/lease-cars-react-app/static/js/main.417f41b7.js",
     "static/media/slide-1.jpg": "/lease-cars-react-app/static/media/slide-1.47257d4febf6b39d9c36.jpg",
     "static/media/slide-2.jpg": "/lease-cars-react-app/static/media/slide-2.a4cff09fc8255322e7d7.jpg",
     "static/media/blog-1.jpg": "/lease-cars-react-app/static/media/blog-1.39c04feaea70b5ae0efc.jpg",
@@ -33,10 +33,10 @@
     "static/media/why-lease-4.svg": "/lease-cars-react-app/static/media/why-lease-4.c7435836240c7f232b76c5f8ea282282.svg",
     "index.html": "/lease-cars-react-app/index.html",
     "main.d5cf0a65.css.map": "/lease-cars-react-app/static/css/main.d5cf0a65.css.map",
-    "main.d8dbfb5b.js.map": "/lease-cars-react-app/static/js/main.d8dbfb5b.js.map"
+    "main.417f41b7.js.map": "/lease-cars-react-app/static/js/main.417f41b7.js.map"
   },
   "entrypoints": [
     "static/css/main.d5cf0a65.css",
-    "static/js/main.d8dbfb5b.js"
+    "static/js/main.417f41b7.js"
   ]
 }
