@@ -20,10 +20,10 @@ function App() {
             <Header />
             
             <Routes>
-                <Route path="lease-cars-react-app/" element={<Homepage />} />
-                <Route path="lease-cars-react-app/new-cars" element={<ChooseCars />} />
-                <Route path="lease-cars-react-app/contacts" element={<Form />} />
-                <Route path="lease-cars-react-app/comparation" element={<LeaseVsBuy />} />
+                <Route path="/lease-cars-react-app/" element={<Homepage />} />
+                <Route path="/lease-cars-react-app/new-cars" element={<ChooseCars />} />
+                <Route path="/lease-cars-react-app/contacts" element={<Form />} />
+                <Route path="/lease-cars-react-app/comparation" element={<LeaseVsBuy />} />
             </Routes>
 
             <CarsBlog />
