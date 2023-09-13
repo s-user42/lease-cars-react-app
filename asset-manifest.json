@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/lease-cars-react-app/static/css/main.d5cf0a65.css",
+    "main.js": "/lease-cars-react-app/static/js/main.9bef3625.js",
+    "static/media/slide-1.jpg": "/lease-cars-react-app/static/media/slide-1.47257d4febf6b39d9c36.jpg",
+    "static/media/slide-2.jpg": "/lease-cars-react-app/static/media/slide-2.a4cff09fc8255322e7d7.jpg",
+    "static/media/blog-1.jpg": "/lease-cars-react-app/static/media/blog-1.39c04feaea70b5ae0efc.jpg",
+    "static/media/blog-2.jpg": "/lease-cars-react-app/static/media/blog-2.27e45cd3449b84399507.jpg",
+    "static/media/car-8.jpg": "/lease-cars-react-app/static/media/car-8.87bbdcf642b3dc780ed7.jpg",
+    "static/media/car-4.jpg": "/lease-cars-react-app/static/media/car-4.45b7a889ef00f6d4cffc.jpg",
+    "static/media/car-1.jpg": "/lease-cars-react-app/static/media/car-1.7c77f86a12a75f7c56c4.jpg",
+    "static/media/car-9.jpg": "/lease-cars-react-app/static/media/car-9.3f93afbf9b0c560b7dd1.jpg",
+    "static/media/car-5.jpg": "/lease-cars-react-app/static/media/car-5.06ab306c0a2f5f74406a.jpg",
+    "static/media/minus-sign-icon-free-png.png": "/lease-cars-react-app/static/media/minus-sign-icon-free-png.dbb292fbebb1daf136f4.png",
+    "static/media/car-10.jpg": "/lease-cars-react-app/static/media/car-10.ad53e5f256806b027cc9.jpg",
+    "static/media/plus-icon-2048x2048-z6v59bd6.png": "/lease-cars-react-app/static/media/plus-icon-2048x2048-z6v59bd6.58fcb16e138f84644f26.png",
+    "static/media/car-2.jpg": "/lease-cars-react-app/static/media/car-2.bb5b296ae04a0f396f44.jpg",
+    "static/media/car-6.jpg": "/lease-cars-react-app/static/media/car-6.289046b05d949dc5559d.jpg",
+    "static/media/car-7.jpg": "/lease-cars-react-app/static/media/car-7.03da0b02e4eb291d5566.jpg",
+    "static/media/imp-1.jpg": "/lease-cars-react-app/static/media/imp-1.241f6f34007635456dff.jpg",
+    "static/media/car-3.jpg": "/lease-cars-react-app/static/media/car-3.41223e1758c2808f2c0f.jpg",
+    "static/media/imp-3.jpg": "/lease-cars-react-app/static/media/imp-3.dd23c7acf37985a63150.jpg",
+    "static/media/imp-2.jpg": "/lease-cars-react-app/static/media/imp-2.dc3d2fee55a195935447.jpg",
+    "static/media/logo.svg": "/lease-cars-react-app/static/media/logo.23b3fb722a268a7de0fa480c89e1189a.svg",
+    "static/media/imp-4.jpg": "/lease-cars-react-app/static/media/imp-4.1f8aedffabe14e447c83.jpg",
+    "static/media/why-lease-1.svg": "/lease-cars-react-app/static/media/why-lease-1.d172daf80df02dce29046817eca96f89.svg",
+    "static/media/why-lease-2.svg": "/lease-cars-react-app/static/media/why-lease-2.2940373c1364bde346560c689ca82daa.svg",
+    "static/media/slick.svg": "/lease-cars-react-app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/lease-cars-react-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/lease-cars-react-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/lease-cars-react-app/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/why-lease-3.svg": "/lease-cars-react-app/static/media/why-lease-3.5ac86595ece56cd3f072ceb93c672369.svg",
+    "static/media/why-lease-4.svg": "/lease-cars-react-app/static/media/why-lease-4.c7435836240c7f232b76c5f8ea282282.svg",
+    "index.html": "/lease-cars-react-app/index.html",
+    "main.d5cf0a65.css.map": "/lease-cars-react-app/static/css/main.d5cf0a65.css.map",
+    "main.9bef3625.js.map": "/lease-cars-react-app/static/js/main.9bef3625.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5cf0a65.css",
+    "static/js/main.9bef3625.js"
+  ]
+}
