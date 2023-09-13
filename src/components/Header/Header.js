@@ -15,7 +15,7 @@ const Header = () => {
             <div className={headerClasses}>
                 <div className="container">
                     <div className="header__inner">
-                        <NavLink to='/' className="logo"><img src={logo} alt="logo" className="logo__img" /></NavLink>
+                        <NavLink to='lease-cars-react-app/' className="logo"><img src={logo} alt="logo" className="logo__img" /></NavLink>
                         <nav className="menu">
                         <button className="menu__btn">
                             <span></span>
@@ -25,17 +25,17 @@ const Header = () => {
                         <ul className="menu__list">
                             <li 
                             className="menu__list-item">
-                                <NavLink to='/new-cars' className='menu__list-link'>NEW CARS
+                                <NavLink to='lease-cars-react-app//new-cars' className='menu__list-link'>NEW CARS
                                 </NavLink>
                             </li>
                             
                             <li 
                             className="menu__list-item">
-                                <NavLink to='/comparation' href="#" className="menu__list-link">LEASE VS BUY</NavLink>
+                                <NavLink to='lease-cars-react-app//comparation' href="#" className="menu__list-link">LEASE VS BUY</NavLink>
                             </li>
                             <li 
                             className="menu__list-item">
-                                <NavLink to='/contacts' href="contacts.html" className="menu__list-link">CONTACT US</NavLink>
+                                <NavLink to='lease-cars-react-app//contacts'  className="menu__list-link">CONTACT US</NavLink>
                             </li>
                         </ul>
                         </nav>
